@@ -1,0 +1,1 @@
+(1..16).each_slice(4) { |slice| puts slice.join(", ") }
